@@ -1,0 +1,33 @@
+@media (min-width:320px) and (max-width:575px){
+    .screen {
+        padding-top: 0;
+        top: 0;
+        left: 0;
+        overflow-y: scroll;
+    }
+    img {
+        position: absolute;
+        top: 0px; 
+        left: 0px; 
+        opacity: .07;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    .screen {
+        overflow-y: scroll;
+        padding-top: 0;
+        top: 0;
+        left: 0;
+    }
+    img {
+        position: absolute;
+        top: 0px;
+        left: 197px;
+        opacity: .07;
+        width: 66%;
+        height: 100%;
+    }
+}
